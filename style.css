@@ -370,8 +370,8 @@ ul {
 
 .project-img {
   border-radius: 2rem;
-  width: auto;
-  height: auto;
+  width: 90%;
+  height: 90%;
 }
 
 .project-title {
