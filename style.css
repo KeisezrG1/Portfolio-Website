@@ -273,8 +273,11 @@ section {
 }
 
 .about-details-container {
+  display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .about-containers,
@@ -328,7 +331,7 @@ section {
 
 .experience-details-container {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -339,6 +342,36 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+  margin: 2rem; /* optional for spacing */
+}
+
+.project {
+  width: 300px; /* or any preferred width */
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.project h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.project p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.project ul li {
+  margin-bottom: 0.5rem;
 }
 
 article {
