@@ -384,7 +384,7 @@ section {
 .experience-details-container {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .article-container {
@@ -398,6 +398,7 @@ section {
 
 article {
   display: flex;
+  flex-direction: row;
   width: auto;
   justify-content: space-around;
   gap: 0.5rem;
@@ -405,6 +406,7 @@ article {
 
 ul {
   font-size: 1.0rem; /* Adjust this value to make it smaller */
+  margin: 0;
 }
 
 /* PROJECTS SECTION */
