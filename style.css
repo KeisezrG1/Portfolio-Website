@@ -328,7 +328,7 @@ section {
 
 .experience-details-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-direction: column;
 }
 
