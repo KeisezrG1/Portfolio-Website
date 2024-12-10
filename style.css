@@ -403,6 +403,10 @@ article {
   gap: 0.5rem;
 }
 
+ul {
+  font-size: 0.8rem; /* Adjust this value to make it smaller */
+}
+
 /* PROJECTS SECTION */
 
 #projects {
