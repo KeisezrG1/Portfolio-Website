@@ -337,7 +337,7 @@ section {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
 }
@@ -352,9 +352,8 @@ article {
 article .icon {
   cursor: default;
 }
-
-ul {
-  font-size: 1.0rem; /* Adjust this value to make it smaller */
+ul{
+  font-size: 1.0rem;
 }
 
 /* PROJECTS SECTION */
